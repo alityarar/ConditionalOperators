@@ -1,0 +1,32 @@
+package day06_concatenation_Operators;
+
+public class C03_ConditionalOperators {
+    public static void main(String[] args) {
+
+
+        boolean ex1= (5+2==7)&&(4+3!=5);  //True
+        System.out.println((5*2!=15)&&(5>7));  //False
+
+
+
+      
+
+        boolean son1=(5+2==7) || (4+3!=5);   //True
+        System.out.println((5*2==15)||(5>7)); //False
+
+
+
+        int num1=15;
+
+    
+
+        System.out.println(10<num1 && num1<20); //True
+
+        int num2=5;
+
+
+        System.out.println(num2<10 || num2>20);
+
+      
+    }
+}
